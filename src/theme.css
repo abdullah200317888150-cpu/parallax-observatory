@@ -1,0 +1,47 @@
+/* The sky canvas retains its scientific display settings in both themes. */
+:root{color-scheme:light}
+.theme-toggle{position:fixed;bottom:24px;right:24px;z-index:60;width:44px;height:44px;display:grid;place-items:center;background:#fafaf6;color:#5e6956;border:1px solid #dcded4;border-radius:50%;box-shadow:0 4px 18px #1520151a}
+.theme-toggle:hover{background:#eeefe6;transform:translateY(-2px)}
+:root[data-theme=dark]{color-scheme:dark;background:#101619;color:#e3e6dd;--paper:#101619;--ink:#e3e6dd;--muted:#a0aaa5;--line:#303c3d;--orange:#f37c53}
+[data-theme=dark] .workspace{background:#161f22;border-color:#334043;box-shadow:0 5px 24px #0003}
+[data-theme=dark] .intro h1 span,[data-theme=dark] .field-card h3 span{color:#99a79f}
+[data-theme=dark] :is(.intro p,.intro-link,.small-label,.search-form>p,.site-header nav button,.subtle-button,.field-card>p,.sidebar-note p,footer){color:#a0afa8}
+[data-theme=dark] :is(.intro-link strong,.search-form h2,.card-title h3,.toggle-row strong,.mission-strip p,.footer-brand){color:#e3e6dd}
+[data-theme=dark] .intro-link-icon{color:#b5c5a7;border-color:#41524a}
+[data-theme=dark] :is(.input-with-unit input,.search-form select,.toolbar-right select,.speed-label select,.discovery-card textarea){background:#111a1e;border-color:#3b4a4b;color:#d4dfd3}
+[data-theme=dark] :is(.search-form label span,.input-with-unit>span,.list-heading>span:last-child,.target-item small,.date-display>span,.timeline>div,.viewer-bottom,.discovery-card>small){color:#9caaa2}
+[data-theme=dark] .target-item{background:transparent}
+[data-theme=dark] .target-item.selected{background:#28372f;border-color:#46543f}
+[data-theme=dark] .target-item:hover{background:#24302e}
+[data-theme=dark] :is(.target-item svg,.target-item.selected svg,.sidebar-note strong){color:#afc19b}
+[data-theme=dark] .segmented{background:#11191d;border-color:#344143}
+[data-theme=dark] .segmented button{color:#aab6af}
+[data-theme=dark] .segmented button.active{background:#304039;color:#edf0e6;box-shadow:0 1px 3px #0004}
+[data-theme=dark] :is(.icon-button:hover,.count){background:#2c3a37}
+[data-theme=dark] .data-badge{background:#38372b;color:#d3c69f}
+[data-theme=dark] .data-badge.real{background:#263c30;color:#b4d5b5}
+[data-theme=dark] :is(.playback>.icon-button,.date-display strong){color:#c4d1bd}
+[data-theme=dark] :is(.viewer-bottom,.toggle-row){border-color:#33413e}
+[data-theme=dark] .viewer-bottom kbd{border-color:#485644;color:#b4c1a9}
+[data-theme=dark] :is(.display-card,.discovery-card){background:#192522;border-color:#34443b}
+[data-theme=dark] :is(.range-label,.toggle-row span,.metadata-row,.discovery-card>p,.mission-strip .small-label,.modal .eyebrow){color:#a6b69c}
+[data-theme=dark] :is(.metadata-row strong,.text-link,.mission-strip button){color:#bdcfa9}
+[data-theme=dark] .discovery-card textarea::placeholder{color:#9aaa98}
+[data-theme=dark] .annotation-button{background:#2a3a2e;color:#c7d9b1;border-color:#4d6043}
+[data-theme=dark] .annotation-button.is-marking{background:#3b2e25;color:#ffab7f;border-color:#ba7752}
+[data-theme=dark] .outline-badge{border-color:#42523b;color:#adbe9c}
+[data-theme=dark] .mission-strip{background:#202f26;border-color:#394d37}
+[data-theme=dark] .mission-strip-icon{border-color:#4d6140;color:#b1c799}
+[data-theme=dark] .strip-orbit{color:#42573a}
+[data-theme=dark] .modal{background:#192222;box-shadow:0 20px 100px #0008}
+[data-theme=dark] :is(.modal>p,.guide-steps p,.notes-list article p,.empty-notes){color:#b1bfa9}
+[data-theme=dark] .info-box{background:#25342a;border-color:#42563a;color:#bccbab}
+[data-theme=dark] :is(.mission-numbers,.notes-list article){border-color:#42513e}
+[data-theme=dark] :is(.mission-numbers span,.notes-list article>div span,.notes-list article small){color:#acba9e}
+[data-theme=dark] .archive-warning{background:#352e21;border-color:#615237;color:#decb99}
+[data-theme=dark] .error-message{background:#3b2824;color:#ffbc9e}
+[data-theme=dark] .theme-toggle{background:#243230;color:#eac99b;border-color:#4a5b4c;box-shadow:0 4px 18px #0005}
+[data-theme=dark] .theme-toggle:hover{background:#33453c}
+[data-theme=dark] .primary,[data-theme=dark] .play-button{color:#161c1b}
+[data-theme=dark] .primary:hover:not(:disabled),[data-theme=dark] .play-button:hover:not(:disabled){background:#ff946c;color:#161c1b}
+@media(max-width:480px){.theme-toggle{bottom:18px;right:18px}}
