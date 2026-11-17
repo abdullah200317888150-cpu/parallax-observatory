@@ -13,7 +13,7 @@ cd
 
 Open **http://127.0.0.1:8000**. The frontend and API are served together. To edit the frontend with live reload, use the two-terminal development setup below.
 
-Use Node 22+ and Python 3.12+ with compatible scientific wheels. Run these commands from `C:\Users\Alan\nasa-app`.
+Use Node 22+ and Python 3.12+ with compatible scientific wheels. Run these commands from `C:\Users\nasa-app`.
 
 ```powershell
 npm.cmd install
