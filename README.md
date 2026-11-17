@@ -7,7 +7,7 @@ A public-facing SPHEREx sky explorer for **Planet X and SPHEREx**, NASA Space Ap
 Dependencies are already installed in this workspace. To launch the built application with one server:
 
 ```powershell
-cd C:\Users\Alan\nasa-app
+cd 
 .\.venv\Scripts\python.exe -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
 ```
 
